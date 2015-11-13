@@ -1,24 +1,24 @@
 {
-  "type": "interpreter-config",
-  "configurations": [
-    {
-      "settings": [
-        {
-          "driverOptions": {
-            "host": "ondemand.saucelabs.com",
-            "port": 80
-          },
-          "browserOptions": {
-            "browserName": "firefox",
-            "username": "${SAUCE_USERNAME}",
-            "accessKey": "${SAUCE_ACCESS_KEY}"
-          }
+ "type": "interpreter-config",
+ "configuration": [
+  {
+   "settings": [
+     {
+       "driverOptions": {
+   	 "host": "ondemand.saucelabs.com",
+	 "port": 80
+        },
+	"browserOptions": {
+	 "browserName": "firefox",
+	 "username": "notyourusualtrash",
+	 "accessKey": "32eea193-e3ad-4bf0-8a14-8f9fcc676fd2"
         }
-      ],
-      "scripts": [
-        "one.json",
-        "two.json"
-      ]
-    }
-  ]
+      }
+    ],
+    "scripts": [
+      "one.json",
+      "two.json"
+    ]
+  }
+ ]
 }
