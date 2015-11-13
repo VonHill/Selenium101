@@ -15,9 +15,7 @@
         }
       }
     ],
-    "scripts": [
-      "one.json"
-    ]
-  }
+    "scripts": "one.json"
+   {
  ]
 }
