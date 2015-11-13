@@ -16,7 +16,8 @@
       }
     ],
     "scripts": [
-      "/*"
+      "one.json",
+      "two.json"
     ]
   }
  ]
