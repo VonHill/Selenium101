@@ -5,11 +5,27 @@
   "steps": [
     {
       "type": "get",
-      "url": "http://www.msn.com/"
+      "url": "http://news.google.com/"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "gbqfq"
+      },
+      "text": "kittens"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "gbqfq"
+      },
+      "text": "kittens"
     },
     {
       "type": "verifyTextPresent",
-      "text": "ADS YOU MAY LIKE"
+      "text": "kittens"
     }
   ],
   "data": {
