@@ -1,10 +1,9 @@
+language: node_js
 before_script:
 - npm install -g se-interpreter
+script:
+- "se-interpreter interpreter_config.json"
 env:
   global:
   - SAUCE_USERNAME=notyourusualtrash
-  - secure: 30912daf-b0bc-4e2a-97b6-62b2366a9087
   - secure: zzWYEIvbc37VpK+y+DB4hyg8glimceEYto1uQRXMS/ClPPprpKFxsSdqdbH6ydX1djzpYOGtG40PupQft7lp1niwfaxtokU+C4nOl4dbPdD8ijqB3Ip4Y4gIceO4Fu1xUnuGcEO5lzEfVvn17u9Xx0rx5YBoWBSVTarIwy5NVTw/BjLp4CVUJ2zSuWBLAEfj3xAb6YSWG96dAutRsSdki1ypuqBpN8sm6b26UyPvklP0YCD8KooeM+LLO9N5WfP3uDSwlGql2piB681gFOPqradSvlESU0jGGHDRasXNAN7R7eiOSkAdosYbOERIch/iBTdrs93B5M8OZGtu6ebeNKHnH276eIJrZGx7QRWCZgFu6bQrImBhoZDeedHp0XSgLJMvhyk3N8odbVkLfpdyjlBhR/LrXE6jKnjsuFWC4lS9AGmayagxO53jqHDYHOFbvDEAmMtRZwIqSfxHERePEB3Kys0IAWMOnM8X6sg5aWSx8WlHNaeuZu2yFroZLe/rWLLsqRhvK12U8xXMwL4Wj7qlHle+oOrWyom46pV3SSVHFuXoIhxigZjOp6XR1hmKwro3TMN14fJ+vOslierYhWWxbXtKkBTSNNna70QF/LXR6gmQ/gTHF8TkGBpSBg+xjogOL7pRbIvLoVeUVyiOM+4uChU4ojxQTeYJRMmRco0=
-language: node_js
-script:
-- se-interpreter Selenium101/interpreter_config.json
