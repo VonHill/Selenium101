@@ -5,5 +5,5 @@ script:
 - se-interpreter interpreter_config.json
 env:
   global:
-  - secure: notyourusualtrash
-  - secure: 30912daf-b0bc-4e2a-97b6-62b2366a9087
+  - SAUCE_USERNAME: notyourusualtrash
+  - SAUCE_ACCESS_KEY: 32eea193-e3ad-4bf0-8a14-8f9fcc676fd2
