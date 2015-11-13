@@ -1,9 +1,11 @@
+--- 
+before_script: 
+  - "npm install -g se-interpreter"
+env: 
+  global: 
+    - SAUCE_USERNAME=notyourusualtrash
+    - 
+      secure: 30912daf-b0bc-4e2a-97b6-62b2366a9087
 language: node_js
-before_script:
-	- "npm install -g se-interpreter"
-script:
-	- "se-interpreter Selenium101/interpreter_config.json"
-env:
-   global:
-      - SAUCE_USERNAME=notyourusualtrash
-      - secure: 30912daf-b0bc-4e2a-97b6-62b2366a9087
+script: 
+  - "se-interpreter Selenium101/interpreter_config.json"
